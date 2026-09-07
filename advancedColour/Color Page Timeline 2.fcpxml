@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.9">
+    <resources>
+        <format width="1920" height="1080" frameDuration="1001/24000s" id="r0" name="FFVideoFormat1080p2398"/>
+        <format width="4608" height="2592" frameDuration="1001/24000s" id="r1" name="FFVideoFormatRateUndefined"/>
+        <format width="4096" height="2160" frameDuration="1001/24000s" id="r3" name="FFVideoFormat4096x2160p2398"/>
+        <format width="1920" height="1080" frameDuration="1/24s" id="r6" name="FFVideoFormat1080p24"/>
+        <asset hasVideo="1" format="r1" hasAudio="1" duration="1001/4000s" audioSources="1" id="r2" name="A003_08071846_C029.braw" start="40601561/600s" audioChannels="2">
+            <media-rep kind="original-media" src="file://localhost/E:/BMD17/Color%20in%20v17.dra/MediaFiles/Ddisk/WN_17_Recordings/Media/ORGAN%20TRIMMED%20BRAW/A003_08071846_C029.braw"/>
+        </asset>
+        <asset hasVideo="1" format="r3" duration="1001/4000s" id="r4" name="E001_08020541_C025.braw" start="82275193/4000s">
+            <media-rep kind="original-media" src="file://localhost/E:/BMD17/Color%20in%20v17.dra/MediaFiles/Ddisk/WN_17_Recordings/Media/ORGAN%20TRIMMED%20BRAW/E001_08020541_C025.braw"/>
+        </asset>
+        <asset hasVideo="1" format="r0" hasAudio="1" duration="1001/400s" audioSources="1" id="r5" name="D010_07210737_C003.mov" start="197139943/8000s" audioChannels="2">
+            <media-rep kind="original-media" src="file://localhost/E:/BMD17/Color%20in%20v17.dra/MediaFiles/Ddisk/WN_17_Recordings/Media/Organ%20Warper%20and%20Mask%20Media/D010_07210737_C003.mov"/>
+        </asset>
+        <asset hasVideo="1" format="r6" duration="5/2s" id="r7" name="Garage Entrance.mov" start="43517/12s">
+            <media-rep kind="original-media" src="file://localhost/D:/ColorPage2/Garage%20Entrance.mov"/>
+        </asset>
+        <asset hasVideo="1" format="r3" duration="1001/4000s" id="r8" name="E001_08020627_C036.braw" start="140413273/6000s">
+            <media-rep kind="original-media" src="file://localhost/E:/BMD17/Color%20in%20v17.dra/MediaFiles/Ddisk/WN_17_Recordings/Media/ORGAN%20TRIMMED%20BRAW/E001_08020627_C036.braw"/>
+        </asset>
+        <asset hasVideo="1" format="r6" duration="19/6s" id="r9" name="Home.mov" start="43925/12s">
+            <media-rep kind="original-media" src="file://localhost/D:/ColorPage2/Home.mov"/>
+        </asset>
+        <asset hasVideo="1" format="r6" duration="7/6s" id="r10" name="Garage Walk.mov" start="10894/3s">
+            <media-rep kind="original-media" src="file://localhost/D:/ColorPage2/Garage%20Walk.mov"/>
+        </asset>
+        <asset hasVideo="1" format="r3" hasAudio="1" duration="1001/4000s" audioSources="1" id="r11" name="D007_07152022_C035.braw" start="881441561/12000s" audioChannels="2">
+            <media-rep kind="original-media" src="file://localhost/D:/Archive/StandardTV_DR_Training.dra/MediaFiles/D007_07152022_C035.braw"/>
+        </asset>
+        <asset hasVideo="1" format="r3" duration="1001/4000s" id="r12" name="D007_07152039_C040.braw" start="1787092307/24000s">
+            <media-rep kind="original-media" src="file://localhost/E:/BMD17/Color%20in%20v17.dra/MediaFiles/Ddisk/WN_17_Recordings/Media/ORGAN%20TRIMMED%20BRAW/D007_07152039_C040.braw"/>
+        </asset>
+        <asset hasVideo="1" format="r0" duration="43043/24000s" id="r13" name="D014_07222119_C029.mov" start="18018/5s">
+            <media-rep kind="original-media" src="file://localhost/D:/Archive/ACE%20training%20materials/ACE%20Training.dra/MediaFiles/D014_07222119_C029.mov"/>
+        </asset>
+    </resources>
+    <library>
+        <event name="Color Page Timeline 2 (Resolve)">
+            <project name="Color Page Timeline 2 (Resolve)">
+                <sequence format="r0" duration="49049/4000s" tcStart="18018/5s" tcFormat="NDF">
+                    <spine>
+                        <clip offset="18018/5s" format="r1" duration="1001/4000s" enabled="1" tcFormat="NDF" name="Golden hour CU" start="40601561/600s">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                            <video offset="40601561/600s" duration="1001/4000s" start="40601561/600s" ref="r2"/>
+                        </clip>
+                        <asset-clip offset="14415401/4000s" format="r3" duration="1001/4000s" enabled="1" tcFormat="NDF" name="Hiking" start="82275193/4000s" ref="r4">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <clip offset="7208201/2000s" format="r0" duration="1001/400s" enabled="1" tcFormat="NDF" name="Trail runner" start="197139943/8000s">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                            <video offset="197139943/8000s" duration="1001/400s" start="197139943/8000s" ref="r5"/>
+                        </clip>
+                        <asset-clip offset="3606603/1000s" format="r6" duration="59059/24000s" enabled="1" tcFormat="NDF" name="Garage Entrance.mov" start="43517/12s" ref="r7">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <asset-clip offset="86617531/24000s" format="r3" duration="1001/4000s" enabled="1" tcFormat="NDF" name="Mountain road" start="140413273/6000s" ref="r8">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <asset-clip offset="86623537/24000s" format="r6" duration="1001/320s" enabled="1" tcFormat="NDF" name="Home.mov" start="43925/12s" ref="r9">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <asset-clip offset="21674653/6000s" format="r6" duration="9009/8000s" enabled="1" tcFormat="NDF" name="Garage Walk.mov" start="10894/3s" ref="r10">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <clip offset="86725639/24000s" format="r3" duration="1001/4000s" enabled="1" tcFormat="NDF" name="Meditation" start="881441561/12000s">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                            <video offset="881441561/12000s" duration="1001/4000s" start="881441561/12000s" ref="r11"/>
+                        </clip>
+                        <asset-clip offset="17346329/4800s" format="r3" duration="1001/4000s" enabled="1" tcFormat="NDF" name="Sunset sky" start="1787092307/24000s" ref="r12">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                        <asset-clip offset="86737651/24000s" format="r0" duration="43043/24000s" enabled="1" tcFormat="NDF" name="Night photography" start="18018/5s" ref="r13">
+                            <adjust-transform scale="1 1" anchor="0 0" position="0 0"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>
