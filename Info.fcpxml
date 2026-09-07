@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.14">
+    <resources>
+        <format width="1920" id="r0" name="FFVideoFormat1080p25" height="1080" frameDuration="1/25s"/>
+        <format width="1080" id="r1" name="FFVideoFormatRateUndefined" height="1920" frameDuration="1/24s"/>
+        <format width="1920" id="r3" name="FFVideoFormat1080p24" height="1080" frameDuration="1/24s"/>
+        <format width="3840" id="r6" name="FFVideoFormat3840x2160p25" height="2160" frameDuration="1/25s"/>
+        <asset id="r2" start="0/1s" hasVideo="1" format="r1" name="10395606-hd_1080_1920_24fps.mp4" duration="20/1s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/10395606-hd_1080_1920_24fps.mp4"/>
+        </asset>
+        <asset hasAudio="1" id="r4" start="3600/1s" hasVideo="1" format="r3" audioSources="1" name="Timeline 1.mov" audioChannels="2" duration="409/12s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/OneDrive%20-%20Westland%20High%20School/Documents/Video%20Assessment/Timeline%201.mov"/>
+        </asset>
+        <asset id="r5" start="0/1s" hasVideo="1" format="r1" name="10395606-hd_1080_1920_24fps.mp4" duration="20/1s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/10395606-hd_1080_1920_24fps.mp4"/>
+        </asset>
+        <asset id="r7" start="0/1s" hasVideo="1" format="r6" name="15263283_3840_2160_25fps.mp4" duration="853/25s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/15263283_3840_2160_25fps.mp4"/>
+        </asset>
+    </resources>
+    <library>
+        <event name="Timeline 1 (Resolve)">
+            <project name="Timeline 1 (Resolve)">
+                <sequence tcFormat="NDF" format="r0" tcStart="3600/1s" duration="1352/25s">
+                    <spine>
+                        <asset-clip ref="r2" tcFormat="NDF" start="0/1s" format="r1" enabled="1" name="10395606-hd_1080_1920_24fps.mp4" offset="3600/1s" duration="20/1s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                            <asset-clip ref="r7" lane="2" tcFormat="NDF" start="0/1s" format="r6" enabled="1" name="15263283_3840_2160_25fps.mp4" offset="9/25s" duration="853/25s">
+                                <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                            </asset-clip>
+                        </asset-clip>
+                        <asset-clip ref="r4" tcFormat="NDF" start="3600/1s" format="r3" enabled="1" name="Timeline 1.mov" offset="3620/1s" duration="852/25s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                            <asset-clip ref="r5" lane="1" tcFormat="NDF" start="0/1s" format="r1" enabled="1" name="10395606-hd_1080_1920_24fps.mp4" offset="90013/25s" duration="20/1s">
+                                <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                            </asset-clip>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>
