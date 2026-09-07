@@ -2,39 +2,121 @@
 <!DOCTYPE fcpxml>
 <fcpxml version="1.14">
     <resources>
-        <format width="1920" id="r0" name="FFVideoFormat1080p25" height="1080" frameDuration="1/25s"/>
-        <format width="1080" id="r1" name="FFVideoFormatRateUndefined" height="1920" frameDuration="1/24s"/>
-        <format width="1920" id="r3" name="FFVideoFormat1080p24" height="1080" frameDuration="1/24s"/>
-        <format width="3840" id="r6" name="FFVideoFormat3840x2160p25" height="2160" frameDuration="1/25s"/>
-        <asset id="r2" start="0/1s" hasVideo="1" format="r1" name="10395606-hd_1080_1920_24fps.mp4" duration="20/1s">
-            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/10395606-hd_1080_1920_24fps.mp4"/>
+        <format width="1920" id="r0" name="FFVideoFormat1080p2398" height="1080" frameDuration="1001/24000s"/>
+        <format width="1280" id="r1" name="FFVideoFormat720p2398" height="720" frameDuration="1001/24000s"/>
+        <asset hasAudio="1" id="r2" start="18018/5s" hasVideo="1" format="r1" audioSources="1" name="AOA_CLIP_01.mov" audioChannels="2" duration="1001/240s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_01.mov"/>
         </asset>
-        <asset hasAudio="1" id="r4" start="3600/1s" hasVideo="1" format="r3" audioSources="1" name="Timeline 1.mov" audioChannels="2" duration="409/12s">
-            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/OneDrive%20-%20Westland%20High%20School/Documents/Video%20Assessment/Timeline%201.mov"/>
+        <asset id="r3" start="18018/5s" hasVideo="1" format="r1" name="b004_SFO_LIGHTS_04.mov" duration="269269/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/b004_SFO_LIGHTS_04.mov"/>
         </asset>
-        <asset id="r5" start="0/1s" hasVideo="1" format="r1" name="10395606-hd_1080_1920_24fps.mp4" duration="20/1s">
-            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/10395606-hd_1080_1920_24fps.mp4"/>
+        <asset id="r4" start="18018/5s" hasVideo="1" format="r1" name="BAY_AREA_NIGHT_LIGHTS.mov" duration="541541/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/BAY_AREA_NIGHT_LIGHTS.mov"/>
         </asset>
-        <asset id="r7" start="0/1s" hasVideo="1" format="r6" name="15263283_3840_2160_25fps.mp4" duration="853/25s">
-            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/15263283_3840_2160_25fps.mp4"/>
+        <asset id="r5" start="18018/5s" hasVideo="1" format="r1" name="STARS_MILKYWAY.mov" duration="17017/1000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/STARS_MILKYWAY.mov"/>
+        </asset>
+        <asset id="r6" start="18018/5s" hasVideo="1" format="r1" name="A299C006_ST_MAARTEN_LANDING_W_PEOPLE.mov" duration="451451/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/A299C006_ST_MAARTEN_LANDING_W_PEOPLE.mov"/>
+        </asset>
+        <asset id="r7" start="18018/5s" hasVideo="1" format="r1" name="053_AERIAL_KENYA_YELLOW PLANE.mov" duration="23023/800s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/053_AERIAL_KENYA_YELLOW%20PLANE.mov"/>
+        </asset>
+        <asset id="r8" start="18018/5s" hasVideo="1" format="r1" name="A663C012_SOUTH_POLE_TAKE_OFF.mov" duration="229229/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/A663C012_SOUTH_POLE_TAKE_OFF.mov"/>
+        </asset>
+        <asset id="r9" start="173173/48s" hasVideo="1" format="r1" name="AOA_CLIP_02.mov" duration="23023/2400s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_02.mov"/>
+        </asset>
+        <asset hasAudio="1" id="r10" start="43304261/12000s" hasVideo="1" format="r1" audioSources="1" name="AOA_CLIP_04.mov" audioChannels="2" duration="143143/8000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_04.mov"/>
+        </asset>
+        <asset id="r11" start="2893891/800s" hasVideo="1" format="r1" name="AOA_CLIP_03.mov" duration="19019/4800s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_03.mov"/>
+        </asset>
+        <asset hasAudio="1" id="r12" start="3476473/960s" hasVideo="1" format="r1" audioSources="1" name="AOA_CLIP_09.mov" audioChannels="2" duration="43043/6000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_09.mov"/>
+        </asset>
+        <asset id="r13" start="87316229/24000s" hasVideo="1" format="r1" name="AOA_CLIP_10.mov" duration="329329/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_10.mov"/>
+        </asset>
+        <asset hasAudio="1" id="r14" start="10961951/3000s" hasVideo="1" format="r1" audioSources="1" name="AA0113_01.mov" audioChannels="2" duration="383383/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AA0113_01.mov"/>
+        </asset>
+        <asset hasAudio="1" id="r15" start="11009999/3000s" hasVideo="1" format="r1" audioSources="1" name="AB0102_01.mov" audioChannels="2" duration="151151/8000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AB0102_01.mov"/>
+        </asset>
+        <asset hasAudio="1" id="r16" start="17706689/4800s" hasVideo="1" format="r1" audioSources="1" name="AC0113_01.mov" audioChannels="2" duration="163163/12000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AC0113_01.mov"/>
+        </asset>
+        <asset id="r17" start="89067979/24000s" hasVideo="1" format="r1" name="CREDITS.mov" duration="227227/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/CREDITS.mov"/>
+        </asset>
+        <asset id="r18" start="218048831/6000s" hasVideo="1" format="r1" name="AOA_CLIP_11.mov" duration="61061/4000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_11.mov"/>
+        </asset>
+        <asset id="r19" start="1393463071/24000s" hasVideo="1" format="r1" name="AOA_CLIP_12.mov" duration="587587/24000s">
+            <media-rep kind="original-media" src="file://localhost/C:/Users/VanessaPringle.WHS/Downloads/DR17-IntroToEditing/Editing/VIDEO%20CLIPS/AOA_CLIP_12.mov"/>
         </asset>
     </resources>
     <library>
         <event name="Timeline 1 (Resolve)">
             <project name="Timeline 1 (Resolve)">
-                <sequence tcFormat="NDF" format="r0" tcStart="3600/1s" duration="1352/25s">
+                <sequence tcFormat="NDF" format="r0" tcStart="18018/5s" duration="419419/1600s">
                     <spine>
-                        <asset-clip ref="r2" tcFormat="NDF" start="0/1s" format="r1" enabled="1" name="10395606-hd_1080_1920_24fps.mp4" offset="3600/1s" duration="20/1s">
+                        <asset-clip ref="r2" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="AOA_CLIP_01.mov" offset="18018/5s" duration="1001/240s">
                             <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
-                            <asset-clip ref="r7" lane="2" tcFormat="NDF" start="0/1s" format="r6" enabled="1" name="15263283_3840_2160_25fps.mp4" offset="9/25s" duration="853/25s">
-                                <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
-                            </asset-clip>
                         </asset-clip>
-                        <asset-clip ref="r4" tcFormat="NDF" start="3600/1s" format="r3" enabled="1" name="Timeline 1.mov" offset="3620/1s" duration="852/25s">
+                        <asset-clip ref="r3" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="b004_SFO_LIGHTS_04.mov" offset="173173/48s" duration="269269/24000s">
                             <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
-                            <asset-clip ref="r5" lane="1" tcFormat="NDF" start="0/1s" format="r1" enabled="1" name="10395606-hd_1080_1920_24fps.mp4" offset="90013/25s" duration="20/1s">
-                                <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
-                            </asset-clip>
+                        </asset-clip>
+                        <asset-clip ref="r4" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="BAY_AREA_NIGHT_LIGHTS.mov" offset="28951923/8000s" duration="541541/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r5" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="STARS_MILKYWAY.mov" offset="8739731/2400s" duration="17017/1000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r6" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="A299C006_ST_MAARTEN_LANDING_W_PEOPLE.mov" offset="43902859/12000s" duration="451451/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r7" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="053_AERIAL_KENYA_YELLOW PLANE.mov" offset="88257169/24000s" duration="23023/800s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r8" tcFormat="NDF" start="18018/5s" format="r1" enabled="1" name="A663C012_SOUTH_POLE_TAKE_OFF.mov" offset="88947859/24000s" duration="229229/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r9" tcFormat="NDF" start="173173/48s" format="r1" enabled="1" name="AOA_CLIP_02.mov" offset="464464/125s" duration="23023/2400s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r10" tcFormat="NDF" start="43304261/12000s" format="r1" enabled="1" name="AOA_CLIP_04.mov" offset="44703659/12000s" duration="143143/8000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r11" tcFormat="NDF" start="2893891/800s" format="r1" enabled="1" name="AOA_CLIP_03.mov" offset="89836747/24000s" duration="19019/4800s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r12" tcFormat="NDF" start="3476473/960s" format="r1" enabled="1" name="AOA_CLIP_09.mov" offset="44965921/12000s" duration="43043/6000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r13" tcFormat="NDF" start="87316229/24000s" format="r1" enabled="1" name="AOA_CLIP_10.mov" offset="45052007/12000s" duration="329329/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r14" tcFormat="NDF" start="10961951/3000s" format="r1" enabled="1" name="AA0113_01.mov" offset="90433343/24000s" duration="383383/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r15" tcFormat="NDF" start="11009999/3000s" format="r1" enabled="1" name="AB0102_01.mov" offset="15136121/4000s" duration="151151/8000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r16" tcFormat="NDF" start="17706689/4800s" format="r1" enabled="1" name="AC0113_01.mov" offset="30423393/8000s" duration="163163/12000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r17" tcFormat="NDF" start="89067979/24000s" format="r1" enabled="1" name="CREDITS.mov" offset="18319301/4800s" duration="227227/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r18" tcFormat="NDF" start="218048831/6000s" format="r1" enabled="1" name="AOA_CLIP_11.mov" offset="22955933/6000s" duration="61061/4000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r19" tcFormat="NDF" start="1393463071/24000s" format="r1" enabled="1" name="AOA_CLIP_12.mov" offset="46095049/12000s" duration="587587/24000s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
                         </asset-clip>
                     </spine>
                 </sequence>
